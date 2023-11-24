@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
     <title>About us</title>
     <script src="main.js"></script>
     <link rel="shortcut icon" href="cook.jpg" type="jpg">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-*********" crossorigin="anonymous" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #07575b ;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #07575b;">
         <a class="navbar-brand" href="#">
             <img src="cook.jpg" width="100" height="100" alt="" class="navbar-icon">
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Menu.html">Menu</a>
@@ -28,7 +30,7 @@
                     <a class="nav-link" href="Contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a></a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
             </ul>
         </div>
@@ -40,12 +42,10 @@
             <p style="background-color: aliceblue;"><b>At Mr. Cook,</b> we're more than just a restaurant; we're a culinary haven where extraordinary flavors, warm hospitality, and culinary artistry converge. Located in the heart of [City Name], our passion for creating memorable dining experiences drives every dish we craft. Our commitment to sourcing the finest local and seasonal ingredients, paired with our dedication to sustainability, ensures that each bite is not only delicious but also environmentally conscious. Step into our inviting ambiance, a blend of modern elegance and rustic charm, and allow our friendly staff to guide you on a global culinary journey. From classic Italian pastas to savory Asian delights, our diverse menu showcases a world of flavors. Whether you're celebrating a special occasion or indulging in a weekday treat, we invite you to join us at Mr. Cook, where we create not just meals, but lasting memories..</p>
         </div>
         </div>
-      
         <button class="accordion-btn"style="color:white">HISTORY</button>
         <div class="accordion-content">
-            <p style="background-color: aliceblue;"> Mr. Cook's story is one of culinary passion and commitment to excellence. Established in [Year of Establishment], our journey began with a simple yet profound idea: to offer our guests an unforgettable dining experience that marries tradition with innovation. Over the years, we've evolved into a culinary destination renowned for our dedication to sourcing the finest local ingredients, our exploration of global flavors, and our warm and welcoming ambiance. From our humble beginnings to becoming a beloved fixture in the heart of [City Name], our history is a testament to our love for food and hospitality. We continue to be inspired by the culinary arts, and our story is eternally intertwined with the memories we create for our valued guests</p>
+            <p style="background-color: aliceblue;"> Mr. Cook's story is one of culinary passion and commitment to excellence. Established in 2023, our journey began with a simple yet profound idea: to offer our guests an unforgettable dining experience that marries tradition with innovation. Over the years, we've evolved into a culinary destination renowned for our dedication to sourcing the finest local ingredients, our exploration of global flavors, and our warm and welcoming ambiance. From our humble beginnings to becoming a beloved fixture in the heart of Astana, our history is a testament to our love for food and hospitality. We continue to be inspired by the culinary arts, and our story is eternally intertwined with the memories we create for our valued guests</p>
         </div>
-        
         <button class="accordion-btn"style="color:white">CHEFS</button>
 <div class="accordion-content">
     <div class="container text-center">
@@ -97,8 +97,6 @@
         </div>
     </div>
 </div>
-
-
       <br>
       <h4>FAQS(frequently asked questions)</h4>
       <div class="container">
@@ -157,19 +155,48 @@
     </div>
     <ul id="myUL"></ul>
     </div>
-    
-    
-    
-    
-    
- 
- 
-     
-
-
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-6">
+                        <h4>Information</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="Menu.html">Menu</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="Contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <h4>Working hours</h4>
+                        <ul class="list-unstyled">
+                            <li>Kabanbay batyra 60A/138 and Bogenbay Batyra 180/6</li>
+                            <li>Mon-Sun:24 hours</li>
+                            <li>No breaks</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <h4>Contacts</h4>
+                        <ul class="list-unstyled">
+                            <li>Phone Number:+7777777777</a></li>
+                            <li>Email:mrcookoriginal@gmail.com</a></li>   
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <h4>Social Media</h4>
+                        <div class="footer-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
